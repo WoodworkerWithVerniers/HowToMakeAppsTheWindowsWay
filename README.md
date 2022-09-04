@@ -21,7 +21,9 @@ I came across an nice one, but it takes to long and you just want to copy and pa
   
   - You will also need JAVA JDK: https://www.oracle.com/java/technologies/downloads/
   
-  - IN CMD PROMPT: java -jar dist/aabresguard_0.1.8_r3.jar sign-aab --bundle=path\of\your\unsigned\.aab\file --output=path\of\your\SIGNED\.aab\file --storeFile=path\of\your\keystore --storePassword=keystorepassword --keyAlias=keyAlias --keyPassword=keyAlias
+  - IN CMD PROMPT:
+  CHANGE YOUR DIRECTORY TO WHERE THE SIGNER IS STORED!!!
+  Then: java -jar dist/aabresguard_0.1.8_r3.jar sign-aab --bundle=path\of\your\unsigned\.aab\file --output=path\of\your\SIGNED\.aab\file --storeFile=path\of\your\keystore --storePassword=keystorepassword --keyAlias=keyAlias --keyPassword=keyAlias
 
 YAY! You've signed your .aab! Remember when I said we will talk a bit more on the .aab file that you will need to upload to Google Play Console? This is it:
   - You will need a developer account with Google Console: https://play.google.com/console/signup
