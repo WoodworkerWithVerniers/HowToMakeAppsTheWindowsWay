@@ -9,12 +9,13 @@ Then you will most probably make a .apk (android package) file:
   - https://colab.research.google.com/drive/1b9gMzs6XAtxCtahxei4N0fWZk7xiPlVw?usp=sharing
   - I found the easiest way was to use the above link. It is using Google Colab with a virtual buildozer
   - Follow the steps | code cells. 
+  - Ensure that you have all of the relevant app files in the files directory on the Google Colab thing
   - NOTE: TO MAKE AN .aab FILE - WHICH IS WHAT YOU NEED TO UPLOAD TO GOOGLE PLAY CONSOLE (MORE ON THAT LATER) - CHANGE '!buildozer -v android debug' in the code cell in Google Colab
    to 'buildozer -v android release'
   - Make sure to Google your errors/questions - that's what I did
  
 Great! Now you have an .aab file. What the hell must you do with that ? Well, you need to sign it. After 12 minutes of frustrated struggling and skipping throuh YTube vidjeos,
-I came across an nice one, but it takes to long and you just want to copy and paste :) :
+I came across an nice one, but it takes too long and you just want to copy and paste :) :
 
   - Firstly you will need to make a key with android studio. I know, I know - just chill and download it. Follow the steps here:
   https://developer.android.com/studio/publish/app-signing
