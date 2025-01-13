@@ -7,12 +7,19 @@ To make apps, it's quite easy! The following is for making apps with python and 
   
 Then you will most probably make a .apk (android package) file:
   - https://colab.research.google.com/drive/1b9gMzs6XAtxCtahxei4N0fWZk7xiPlVw?usp=sharing
-  - I found the easiest way was to use the above link. It is using Google Colab with a virtual buildozer
+  - I found the easiest way was to use the above link. It is using Google Colab with a virtual buildozer. This has only worked a couple of times for me, though.
   - Follow the steps | code cells. 
   - Ensure that you have all of the relevant app files in the files directory on the Google Colab thing
   - NOTE: TO MAKE AN .aab FILE - WHICH IS WHAT YOU NEED TO UPLOAD TO GOOGLE PLAY CONSOLE (MORE ON THAT LATER) - CHANGE '!buildozer -v android debug' in the code cell in Google Colab
    to 'buildozer -v android release'
   - Make sure to Google your errors/questions - that's what I did
+
+You can refer to the following video at the 41 minute mark:
+- https://www.youtube.com/watch?v=pGolbRsvgnA&t=2500s
+- Essentially, you need to download and get the Windows Subsystem for Linux up and running for your machine
+    - https://buildozer.readthedocs.io/en/latest/installation.html#targeting-android
+    - Here is an example screenshot of the cmd
+![image](https://github.com/user-attachments/assets/dc5ee0ff-2a50-45dc-ab40-48ca2d5fa9ef)
  
 Great! Now you have an .aab file. What the hell must you do with that ? Well, you need to sign it. After 12 minutes of frustrated struggling and skipping throuh YTube vidjeos,
 I came across an nice one, but it takes too long and you just want to copy and paste :) :
